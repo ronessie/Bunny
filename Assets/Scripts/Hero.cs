@@ -81,7 +81,6 @@ public class Hero : MonoBehaviour
     {
         SceneManager.LoadScene(die);
     }
-    // ReSharper disable Unity.PerformanceAnalysis
     private void Die()
     {   
         Debug.Log("здох");
@@ -127,7 +126,6 @@ public class Hero : MonoBehaviour
         }
     }
 
-    // ReSharper disable Unity.PerformanceAnalysis
     private void Check()
     {
         if (check3)

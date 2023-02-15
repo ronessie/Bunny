@@ -26,9 +26,4 @@ public class Menu : MonoBehaviour
     {
         SceneManager.LoadScene(menu);
     }
-
-    public void ButtonOfSound()
-    {
-        
-    }
 }
